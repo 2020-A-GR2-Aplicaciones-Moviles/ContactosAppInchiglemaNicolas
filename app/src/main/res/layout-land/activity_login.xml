@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
+    
+    <style name="BaseAppTheme" parent="android:Theme.Material">
+    <!-- enable window content transitions -->
+    <item name="android:windowActivityTransitions">true</item>
+
+    <!-- specify enter and exit transitions -->
+    <item name="android:windowEnterTransition">@transition/explode</item>
+    <item name="android:windowExitTransition">@transition/explode</item>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="643dp"
+        android:layout_height="638dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/login2"
@@ -44,8 +63,9 @@
             android:id="@+id/imageView"
             android:layout_width="134dp"
             android:layout_height="118dp"
+            android:contentDescription="@string/todo"
             android:src="@android:drawable/ic_menu_mapmode"
-            android:contentDescription="@string/todo" />
+            tools:srcCompat="@drawable/ic_icon" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,7 +79,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/edtxtEmail"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -72,7 +92,7 @@
             android:layout_height="12dp" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/edtxtPassword"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -85,7 +105,7 @@
             android:layout_height="12dp" />
 
         <Switch
-            android:id="@+id/recuerdame"
+            android:id="@+id/swtRecuerdame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recuerdame" />
@@ -107,6 +127,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="290dp" />
+        app:layout_constraintGuide_begin="307dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
