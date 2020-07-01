@@ -6,14 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
-    
-    <style name="BaseAppTheme" parent="android:Theme.Material">
-    <!-- enable window content transitions -->
-    <item name="android:windowActivityTransitions">true</item>
 
-    <!-- specify enter and exit transitions -->
-    <item name="android:windowEnterTransition">@transition/explode</item>
-    <item name="android:windowExitTransition">@transition/explode</item>
 
     <ImageView
         android:id="@+id/imageView2"
