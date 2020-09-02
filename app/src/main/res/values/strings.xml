@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ContactosAppInchiglemaNicolas</string>
+    <string name="app_name">ContactApp</string>
     <string name="ingreso">Ingreso</string>
     <string name="recuerdame">Recuerdame</string>
     <string name="olvide_mi_contrase_a">Olvide mi contraseña</string>
@@ -8,4 +8,16 @@
     <string name="todo">TODO</string>
     <string name="ingresar">Ingresar</string>
     <string name="resgistrarse">Resgistrarse</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="telefono">Teléfono</string>
+    <string name="nombre">Nombre</string>
+    <string name="repetir_contrasena">Repetir contraseña</string>
+    <string name="user_id">User id:</string>
+    <string name="guardar">Guardar</string>
+    <string name="ver">Ver</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
+    <string name="email">Email:</string>
+    <string name="apellido">Apellido</string>
+    <string name="numero">Numero:</string>
 </resources>
