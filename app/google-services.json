@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "242509875735",
+    "firebase_url": "https://contactapp-dc024.firebaseio.com",
+    "project_id": "contactapp-dc024",
+    "storage_bucket": "contactapp-dc024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242509875735:android:b094ee27b14618ed4a6a52",
+        "android_client_info": {
+          "package_name": "com.inchiglemanicolas.contactosappinchiglemanicolas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242509875735-k0lvtm3ibru2892mi4hg219hc509dqir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeCDiqCquwfy7iPDnQCmbGP6AToYPdSSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242509875735-k0lvtm3ibru2892mi4hg219hc509dqir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
