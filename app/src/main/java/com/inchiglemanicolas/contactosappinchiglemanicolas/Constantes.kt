@@ -1,5 +1,4 @@
 package com.inchiglemanicolas.contactosappinchiglemanicolas
-
 import com.google.firebase.auth.FirebaseAuth
 
 const val USER_KEY = "USER_KEY"
